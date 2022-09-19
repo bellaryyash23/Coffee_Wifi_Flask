@@ -1,4 +1,4 @@
-# ☕Coffee & Work Cafe rating Website using Bootstrap & Flask, WTForms of Python
+# ☕Coffee & Work Cafe rating Website using Bootstrap & Flask, WTForms of Python.
 
 🌟Want to work in a cafe? Here's a website which provides a collection of cafes with data related like coffee rating, wifi strength & power plug availability so 
 that next time you visit a cafe you can work as well as enjoy your coffee.
@@ -36,7 +36,7 @@ read data is stored in a list and gets passed to the 'cafes.html' file during th
 
 👉Now, there is a secret route '/add' where we can add new cafe details to the list of existing cafes. On this route the use of WTForms is done to send and receive data
 from the form response. Using the WTForms first, the form class is created in the main.py file. This is designed using all the methods which wtforms provides which makes
-tthese forms simple & have added functionaliy compared to regular HTML forms.
+these forms simple & have added functionaliy compared to regular HTML forms.
 
 👉This form object is passed to the 'add.html' file to render is secret webpage. The magic of WTForms and Bootstrap is that, we can create this form with all the styling
 and design with just one line '{{ wtf.quick_form(form) }}' thats it so simple.
